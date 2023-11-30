@@ -1,3 +1,8 @@
+body {
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  color: black;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -39,6 +44,7 @@
 
 .nav {
   background-color: black;
+  overflow-x: scroll;
 }
 
 .nav__list {
@@ -101,7 +107,7 @@
 }
 
 .link--border::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -261,7 +267,7 @@
   height: 0;
   border: 0.5em solid transparent;
   border-left: 0.6em solid black;
-  content: '';
+  content: "";
 }
 
 .footer-item__menu-list-item {
